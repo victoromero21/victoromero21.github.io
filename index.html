@@ -2,216 +2,130 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MI REGION</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Hoja de vida</title>
 </head>
 
 <body>
-  <header class="header">
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Acerca de</a>
-      <a href="#">Portafolio</a>
-      <a href="#">Servicios</a>
-      <!-- Button trigger modal -->
-      <a type="button" class="btn eje" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Contacto
-      </a>
-    
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Información de contacto</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-8 formato cabecera p-2">
+                <div class="row mt-3 mb-3">
+                    <div class="col-3 align-middle">
+                        <img src="escudo.png">
+                    </div>
+                    <div class="col-6 text-center align-middle">
+                        <h3>FORMATO UNICO</h3>
+                        <h1>HOJA DE VIDA</h1>
+                        <h5>Persona Natural</h5>
+                        <span>(Leyes 190 de 1995, 489 y 443 de 1998)</span>
+                    </div>
+                    <div class="col-3 text-center">
+                        <label>
+                            ENTIDAD RECEPTORA
+                        </label>
+                        <input class="texto-titulo" type="text">
+                    </div>
+                </div>
             </div>
-            <div class="modal-body text-start">
-              <h6>Telefono: </h6>
-              <h6>Correo: </h6>
-              <h6>Direccion: </h6>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-warning">Cerrar</button>
-            </div>
-          </div>
         </div>
-      </div>
-    </nav>
-    <section class="textos-header">
-      <h1>MI REGIÓN</h1>
-      <h2>Plataforma de comercio justo para la protección, promoción y venta de artesania local</h2>
-    </section>
-    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-        style="height: 100%; width: 100%;">
-        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-          style="stroke: none; fill: #fff;"></path>
-      </svg></div>
-  </header>
-  <main class="container">
-    <section class="contenedor sobre-nosotros">
-      <h2 class="titulo">Nuestros productos</h2>
-      <div class="contenedor-sobre nosotros">
-        <img src="images/personas.jpg" alt="" align="right" class="imagen-about-us">
-        <div class="contenido-textos">
-          <h3> Descripcion</h3>
-          <p align="justify"> Las artesanías y los productos típicos locales son manifestaciones de la cultura y las
-            formas de vida tradicionales. Su protección y fomento son una obligación para organismos públicos o
-            privados. Al mismo tiempo los destinos precisan
-            ofrecer al mercado atractivos que los identifiquen y diferencien en un mercado cada vez más homogéneo. Por
-            esos dos valores hemos creado el marketplace de artesanías: una plataforma de comercio online que crea un
-            punto de encuentro
-            entre el gran mercado y los productores, abre el canal online de venta, genera oportunidades de negocio,
-            potencia la marca del destino y mejora la eficiencia de la labor de los organismos gestores.</p>
-          <h3>La entrada a la economía digital</h3>
-          <p align="justify"> El marketplace de artesanías resuelve las barreras de entrada a la economía digital con
-            una acción vertical sobre el colectivo de artesanos. El marketplace abre el canal de venta digital
-            apoyándose en el organismo promotor de las artesanías
-            del destino definiendo los procesos críticos de compraventa, envío y atención al cliente.</p>
-        </div>
+        <div class="row mt-3">
+            <div class="col-8 formato">
+                <h6><span>1</span> <span> DATOS PERSONALES</span></h6>
+            </div>
+            <div class="col-8 formato">
+                <div class=" row formulario">
+                    <div class="col-4 border border-dark">
+                        <span><i><b>PRIMER APELLIDO</b></i></span><br>
+                        <input class="texto" type="text">
+                    </div>
+                    <div class="col-4 border border-dark">
+                        <span><i><b>SEGUNDO APELLIDO (O DE CASADA)</b></i></span>
+                        <input class="texto" type="text">
+                    </div>
+                    <div class="col-4 border border-dark">
+                        <span><i><b>NOMBRES</b></i></span><br>
+                        <input class="texto" type="text">
+                    </div>
+                </div>
+                <div class="row formulario">
+                    <div class="col-5 border border-dark">
+                        <span><i><b>DOCUMENTO DE IDENTIFICACIÓN</b></i></span>
+                        <p>C.C <input type="radio"> C.E <input type="radio"> PAS <input type="radio"> No. <input
+                                class="texto" type="text"></p>
+                    </div>
+                    <div class="col-2 border border-dark">
+                        <span><i><b>Sexo</b></i></span>
+                        <p>F <input type="radio"> M <input type="radio"></p>
+                    </div>
+                    <div class="col-5 border border-dark">
+                        <span><i><b>Nacionalidad</b></i></span><span><i><b> Pais</b></i></span>
+                        <p>COL <input type="radio"> EXTRANJERO <input type="radio"> <input class="texto" class="text">
+                        </p>
+                    </div>
+                </div>
+                <div class="row formulario">
+                    <div class="col-12 border border-dark">
+                        <span><i><b>LIBRETA MILITAR</b></i></span>
+                        <p>PRIMERA CLASE<input type="radio"> SEGUNDA CLASE<input type="radio"> NUMERO <input
+                                class="texto" type="text"> D.M <input class="texto" type="text"></p>
+                    </div>
+                    <div class="col-6 border border-dark">
+                        <span><i><b>FECHA Y LUGAR DE NACIMIENTO</b></i></span><br>
+                        <span class="col-3">FECHA </span><span class="col-9">DIA <input class="fecha" type="number"> MES
+                            <input class="fecha" type="number"> AÑO <input class="año" type="number"></span>
+                        <p>Pais <input class="texto"></p>
+                        <p>Depto <input class="texto"></p>
+                        <p>Municipio <input class="texto"></p>
+                    </div>
+                    <div class="col-6 border border-dark">
+                        <span><i><b>DIRECCIÓN DE CORRESPONDENCIA</b></i></span><br>
+                        <input class="texto" type="text">
+                        <p>PAÍS <input class="texto" type="text"> DEPTO <input class="texto" type="text"></p>
+                        <p>MUNICIPIO <input class="texto"></p>
+                        <p>TELÉFONO <input class="texto"> EMAIL <input class="texto"></p>
+                    </div>
 
-      </div>
-    </section>
-    <section class="portafolio">
-      <class class="contenedor">
-        <h2 class="titulo">Portafolio</h2>
-
-        <div class="row mb-3">
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto.jpeg" class="card-img-top" alt="primera">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <button type="button" class="btn btn-outline-primary btn-block">Go somewhere</button>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto1.jpeg" class="card-img-top" alt="segunda">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto2.jpg" class="card-img-top" alt="tercera">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
         </div>
+        <div class="row mt-3">
+            <div class="col-8 formato">
+                <h6><span>2</span> <span> FORMACION ACADÉMICA</span></h6>
+            </div>
+            <div class="col-8 formato">
+                <div class=" row formulario">
+                    <div class="col-12 border border-dark">
+                        <span><i><b>EDUCACIÓN BÁSICA Y MEDIA</b></i></span><br>
+                        <p>MARQUE CON UNA X EL ULTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN
+                            A LOS GRADOS 6o. A 11o. DE EDUCACION BÁSICA SECUNDARIA Y MEDIA</p>
+                        <div class="row">
+                            <table class="col-8">
+                                <tr>
+                                    <td>EDUCACIÓN BASICA</td>
+                                    <td>TÍTULO OTBENIDO: <input></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
-        <div class="row mb-3">
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto3.jpeg" class="card-img-top" alt="cuarta">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto4.jpeg" class="card-img-top" alt="quinta">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto5.jpeg" class="card-img-top" alt="sexta">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
+                </div>
 
-        <div class="row mb-3">
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto6.jpeg" class="card-img-top" alt="septima">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
+
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto7.jpeg" class="card-img-top" alt="octava">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="images/producto8.jpeg" class="card-img-top" alt="novena">
-              <div class="card-body">
-                <h5 class="card-title">Producto</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
-                <button type="button" class="btn btn-warning btn-block">Add to cart</button>
-              </div>
-            </div>
-          </div>
         </div>
-        <br>
-        
-    </section>
-  </main>
-  <section class="footer">
-    <H5>
-      <h3>Información de Contacto</h3>
-      <p>Correo electronico: asdj@gmail.com</p>
-      <p>Dirección: Calle 5 carrea 11 N° 2-38 B</p>
-      <p>Telefono de contacto: 430******</p>
-      
-    </H5>
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+    </div>
+
+</body>
 
 </html>
