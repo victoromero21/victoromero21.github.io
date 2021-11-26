@@ -1,73 +1,191 @@
-img{
-    width: 250px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
-.formato{
-    margin: 0 auto;
-    border-bottom: 4px solid black;
 
-    border-right: 4px solid black;
+body {
+    font-family: 'open sans';
 }
-.formato:first-child{
-    background: none;
-    border: none;
-}
-h6 span{
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 50px;
-    padding: 0 10px;
-    color: white;
-}
-.texto{
-    width: 150px;
-    border: none;
-    border-bottom: 1px solid black;
-    background: none;
-}
-.border{
-    border: 4px;
-}
-.año{
-    width: 100px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid black;
-}
-.fecha{
-    width: 50px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid black;
-}
-.tittle{
 
+.contenedor {
+    padding: 60px 0;
+    width: 90;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
 }
-i{
-    font-size: 12px;
+
+.titulo {
+    color: #fa2;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
 }
-.formato{
-    background-color: rgb(242,250,252);
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
-.cabecera:first-child{
-    border: 1px solid black;
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
-    border-radius: 15px;
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    background: linear-gradient(to right,#fa2, #fc2);
 }
-table{
-    margin: 0 auto;
-    /* border: 1px solid black; */
+
+nav>a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
 }
-td{
-    border: 1px solid black;
+
+nav>a:hover {
+    text-decoration: none;
+    color: black;
 }
-td input{
-    background: none;
-    border: none;
+
+header .textos-header {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.texto-titulo{
-    border: 2px solid black;
+
+.textos-header h1 {
+    font-size: 50px;
+    color: #fff;
 }
-.p1{
-    background-color:cornflowerblue;
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+
+/*About us*/
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us {
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px o rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+
+.contenido.textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Galeria */
+
+.portafolio {
+    background: #fff;
+}
+
+
+
+.imagen-port {
+    width: 400px;
+    margin-bottom: 100px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .19);
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: auto;
+    object-fit: conver;
+    /*display: block;*/
+}
+
+
+.hover-galeria {
+    position: absolute;
+    top: 0;
+    background: hsla(273, 91%, 27%, 0.7);
+    transition: transform.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hover-galeria p {
+    color: #fff;
+    
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #fa2;
+    background-size: cover;
+    color: #ffd;
+    text-align: center;
+    padding: 20px;
+}
+.header section{
+    background: linear-gradient(to right,#fa2, #fc2);
+    
+}
+svg{
+    background: linear-gradient(to right,#fa2, #fc2);
+}
+.eje{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0;
 }
